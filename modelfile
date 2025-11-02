@@ -1,0 +1,14 @@
+FROM codellama
+
+FROM codemaster
+
+PARAMETER num_ctx 2048        
+
+
+### set temperature
+PARAMETER temperature 0.7
+
+### set system prompt
+SYSTEM """
+You are a code teaching assistant that answers and briefly explain all coding related queries in a crisp and clear manner.
+"""
