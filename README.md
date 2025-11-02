@@ -2,14 +2,14 @@
 
 CodeMaster AI is a lightweight Gradio web app that connects to a locally hosted AI model to help you generate and understand code in a simple chat interface.
 
-## ✅ Features
+##  Features
 
-- 💬 Chat-style interface for coding questions  
-- 🧠 Remembers previous conversation context  
-- ⚡ Uses a local AI model (`codemaster`) via `http://localhost:11434/api/generate`  
-- 🖥️ Simple and clean Gradio UI  
+-  Chat-style interface for coding questions  
+-  Remembers previous conversation context  
+-  Uses a local AI model (`codemaster`) via `http://localhost:11434/api/generate`  
+-  Simple and clean Gradio UI  
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 .
@@ -24,7 +24,7 @@ CodeMaster AI is a lightweight Gradio web app that connects to a locally hosted 
 - The conversation is sent to the local API in JSON format.  
 - The model’s reply is processed and shown in the Gradio interface.
 
-## ▶️ Run the App
+##  Run the App
 
 ### 1. Install dependencies:
 ```bash
@@ -44,7 +44,7 @@ python app.py
 
 ### 4. Open the link shown in the terminal to start chatting!
 
-## ⚙️ Model Configuration (`modelfile`)
+##  Model Configuration (`modelfile`)
 
 ```
 FROM codellama
@@ -58,7 +58,7 @@ You are a code teaching assistant that answers and briefly explains all coding-r
 """
 ```
 
-## 💡 Example Prompts
+##  Example Prompts
 
 ```
 Explain bubble sort in Python.  
@@ -66,7 +66,7 @@ Write a C++ function to reverse a string.
 What's the difference between an array and a linked list?
 ```
 
-## 🛑 Troubleshooting
+##  Troubleshooting
 
 | Issue                         | Solution                                         |
 |------------------------------|--------------------------------------------------|
@@ -74,10 +74,4 @@ What's the difference between an array and a linked list?
 | Model not found              | Check if `codemaster` is installed in Ollama    |
 | Gradio not starting          | Run `pip install -r requirements.txt`           |
 
-## 🤝 Contribute
 
-Feel free to improve this project — UI, backend logic, or model setup. Pull requests are welcome!
-
-## 📜 License
-
-Open for personal, educational, or experimental use. Modify as needed.
